@@ -15,14 +15,33 @@
             font-size: 3em;
         }
         a {
+            display: inline-block;
             text-decoration: none;
-            color: #d60000;
+            color: #fff;
+            background-color: #d60000;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 8px;
             font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #b00000;
+        }
+        .center-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 400px;
+            width: 80%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
     </style>
 </head>
 <body>
-    <h1>kocham maj mil<3</h1>
+    <h1>kocham maj mil <3</h1>
+    <img src="majmil1.jpg" alt="Maja" class="center-image">
     <a href="index.html">Wróć</a>
 </body>
 </html>
